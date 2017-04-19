@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>SessionApp</display-name>
+  <welcome-file-list>
+    <welcome-file>First.html</welcome-file>
+     </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Session1Servlet</display-name>
+    <servlet-name>Session1Servlet</servlet-name>
+    <servlet-class>Session1Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Session1Servlet</servlet-name>
+    <url-pattern>/one</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Session2Servlet</display-name>
+    <servlet-name>Session2Servlet</servlet-name>
+    <servlet-class>Session2Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Session2Servlet</servlet-name>
+    <url-pattern>/two</url-pattern>
+  </servlet-mapping>
+</web-app>
